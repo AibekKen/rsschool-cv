@@ -8,11 +8,11 @@
 ## About Me
 Experienced in logistics, production and sales specialist, who have business negotiation skills and had succsefull result in runing negotiations  with large companies in Kazakhstan. Whant to enter new professional area.  Want to enter new professional area for maximal releasing creative and mental abilities.
 ## Skills
--HTML
--CSS/SCSS
--JavaScript(basic)
--Java(basic)
--Git
+- HTML
+- CSS/SCSS
+- JavaScript(basic)
+- Java(basic)
+- Git
 ## Code Example
 ```
 function showNumber(num){
@@ -32,4 +32,4 @@ setTimeout(showNumber, 500, 1);
 
 ## English
  Pre-Intermediate (A2)
- 
+Practice in Speaking club with native speakers
