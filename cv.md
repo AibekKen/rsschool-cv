@@ -13,6 +13,7 @@ Experienced in logistics, production and sales specialist, who have business neg
 - JavaScript(basic)
 - Java(basic)
 - Git
+
 ## Code Example
 ```
 function showNumber(num){
@@ -31,5 +32,6 @@ setTimeout(showNumber, 500, 1);
 - Java(basic)/Frontend(HTML,CSS,JS) courses on YouTube
 
 ## English
- Pre-Intermediate (A2)
+Pre-Intermediate (A2)
+
 Practice in Speaking club with native speakers
