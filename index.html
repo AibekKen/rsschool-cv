@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>CV</title>
 </head>
+
 <body>
-   
+   <div class="wrapper">
+      <main class="cv">
+
+         <section class="cv-title">
+            <div class="container">
+               <div class="image">
+                  <img src="image.jpeg" alt="">
+               </div>
+               <h1>Aibek Kenzhebaev</h1>
+            </div>
+         </section>
+
+
+         <section class="cv-contacts">
+            <div class="container">
+               <h2 class="title">
+                  Contacts
+               </h2>
+               <ul class="cv-contacts__list list">
+                  <li><span>Location</span>: Karaganda, Kazakhstan
+                  </li>
+                  <li>
+                     <span>Phone</span>: +7 707 358-26-48
+                  </li>
+                  <li>
+                     <span>Email</span>: ai.bek@mail.ru
+                  </li>
+                  <li>
+                     <span>GitHub</span>: @AibekKen
+                  </li>
+               </ul>
+            </div>
+         </section>
+
+
+         <section class="cv-aboutMe">
+            <div class="container">
+               <h2 class="cv-aboutMe__title title">About Me
+               </h2>
+
+               <div class="cv-aboutMe__text text">
+                  Experienced in logistics, production and sales specialist, who have business negotiation skills and
+                  had
+                  succsefull result in runing negotiations with large companies in Kazakhstan. Whant to enter new
+                  professional area. Want to enter new professional area for maximal releasing creative and mental
+                  abilities.
+               </div>
+            </div>
+         </section>
+
+
+         <section class="cv-skills">
+            <div class="container">
+               <h2 class="cv-skills__title title">Skills</h2>
+               <ul class="cv-skills__list list">
+                  <li>HTML</li>
+                  <li>CSS/SCSS
+                  </li>
+                  <li>JavaScript(basic)
+                  </li>
+                  <li>Java(basic)
+                  </li>
+                  <li>Git</li>
+               </ul>
+            </div>
+         </section>
+         <section class="cv-code">
+            <div class="container">
+               <h2 class="cv-code__title title">Code Example
+
+               </h2>
+               <pre class="cv-code__code">
+     function showNumber(num){
+      console.log(num);
+      let timeID = setTimeout(showNumber, 500, ++num);
+      if(num>6){
+                 clearTimeout(timeID);
+               }
+      };
+             
+      setTimeout(showNumber, 500, 1);
+         </pre>
+            </div>
+         </section>
+         <section class="cv-experience">
+            <div class="container">
+               <h2 class="cv-experience__title title">
+                  Experience
+               </h2>
+            </div>
+         </section>
+         <section class="cv-education">
+            <div class="container">
+               <h2 class="cv-education__title title">
+                  Education
+               </h2>
+               <ul class="cv-education__list list">
+                  <li>Karaganda Economic University
+                  </li>
+                  <li>Java(basic)/Frontend(HTML,CSS,JS) courses on YouTube
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="cv-english">
+            <div class="container">
+               <h2 class="cv-english__title title">
+                  English
+               </h2>
+               <p>Pre-Intermediate (A2)
+               </p>
+               <p>Practice in Speaking club with native speakers</p>
+            </div>
+         </section>
+
+
+      </main>
+   </div>
+
 </body>
+
 </html>
