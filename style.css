@@ -1,0 +1,87 @@
+body {
+   background-color: rgba(238, 230, 221, 0.85);
+}
+
+.wrapper {
+   width: 100%;
+}
+.cv {
+}
+.cv-title {
+   display: flex;
+}
+.container {
+   max-width: 900px;
+   margin: 0 auto;
+}
+.image {
+   flex: 0 1 50%;
+   width: 200px;
+   border-radius: 15px;
+   overflow: hidden;
+}
+.image img {
+   width: 100%;
+}
+.cv-contacts {
+}
+.title {
+   padding: 5px 15px;
+   position: relative;
+   background-color: rgb(228, 186, 72);
+   border-radius: 10px;
+}
+
+.title::after {
+   display: block;
+   position: absolute;
+   background-color: #666;
+   width: 100px;
+   height: 1px;
+   bottom: 0;
+   left: 0;
+}
+.cv-contacts__list {
+}
+.list {
+}
+.list span {
+   font-weight: 700;
+}
+.cv-aboutMe {
+}
+.cv-aboutMe__title {
+}
+.cv-aboutMe__text {
+}
+.text {
+   text-align: justify;
+}
+.cv-skills {
+}
+.cv-skills__title {
+}
+.cv-skills__list {
+}
+.cv-code {
+}
+.cv-code__title {
+}
+.cv-code__code {
+   background-color: rgba(156, 204, 235, 0.551);
+   border-radius: 15px;
+}
+.cv-experience {
+}
+.cv-experience__title {
+}
+.cv-education {
+}
+.cv-education__title {
+}
+.cv-education__list {
+}
+.cv-english {
+}
+.cv-english__title {
+}
