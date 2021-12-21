@@ -8,12 +8,14 @@ body {
 .cv {
 }
 .cv-title {
+   display: flex;
 }
 .container {
    max-width: 900px;
    margin: 0 auto;
 }
 .image {
+   flex: 0 1 50%;
    width: 200px;
    border-radius: 15px;
    overflow: hidden;
