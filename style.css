@@ -5,6 +5,7 @@ body {
 .wrapper {
    width: 100%;
 }
+
 .cv {
 }
 .cv-title {
@@ -14,6 +15,35 @@ body {
    max-width: 900px;
    margin: 0 auto;
 }
+
+a {
+   text-decoration: none;
+}
+.header {
+   height: 60px;
+}
+.container {
+}
+.header__menu {
+}
+.header__list {
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+   color: #000;
+}
+
+.header__list li {
+   list-style-type: none;
+}
+
+.header__list li a {
+   color: #000;
+}
+.header__list li a:hover {
+   text-decoration: underline;
+}
+
 .image {
    flex: 0 1 50%;
    width: 200px;
@@ -41,47 +71,74 @@ body {
    bottom: 0;
    left: 0;
 }
-.cv-contacts__list {
-}
-.list {
-}
+
 .list span {
    font-weight: 700;
 }
-.cv-aboutMe {
-}
-.cv-aboutMe__title {
-}
-.cv-aboutMe__text {
-}
+
 .text {
    text-align: justify;
 }
-.cv-skills {
-}
-.cv-skills__title {
-}
-.cv-skills__list {
-}
-.cv-code {
-}
-.cv-code__title {
-}
+
 .cv-code__code {
    background-color: rgba(156, 204, 235, 0.551);
    border-radius: 15px;
 }
-.cv-experience {
+
+.footer {
+   background: rgb(101, 87, 87);
+   padding: 0 20px;
 }
-.cv-experience__title {
+
+.footer__row {
+   display: flex;
+   height: 80px;
+   align-items: center;
 }
-.cv-education {
+
+.footer__column {
+   flex: 0 1 33.33%;
 }
-.cv-education__title {
+
+.footer__column_2 {
+   display: flex;
+   justify-content: center;
 }
-.cv-education__list {
+
+.footer__column_3 {
+   display: flex;
+   justify-content: flex-end;
 }
-.cv-english {
+
+.footer__title {
+   color: #fff;
 }
-.cv-english__title {
+
+.footer__github {
+   display: flex;
+   align-items: center;
+   color: #fff;
+   text-decoration: none;
+}
+
+.logo {
+   width: 100px;
+}
+
+.logo img {
+   width: 100%;
+}
+
+.footer__rsschool {
+}
+.rsschool__logo {
+}
+
+.github__logo {
+   width: 50px;
+   margin: 0 10px 0 0;
+}
+
+.github__logo img {
+   width: 100%;
 }
